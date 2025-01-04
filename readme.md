@@ -1,4 +1,7 @@
+首先声明，这款软件并非我原创开发，而是目前了解到由 股神 在 CF中转IP 频道 发布的一款实时筛选 Cloudflare 数据中心的软件。
 
+CFNAT 是一款自动查找并优化 Cloudflare IP 转发的工具，旨在解决泛播 IP 路由不稳定的问题。如果你曾找到过速度不错的 Cloudflare IP，CFNAT 能帮助你快速筛选出最佳 IP 并实现端口转发，从而提升网络使用体验。因此，这款工具对于移动、广电网络用户来说尤为明显！
+<hr>
 参数说明<br>
 也可直接使用cmd带参执行原程序，例如：<code>cfnat-windows-amd64.exe -addr="0.0.0.0:1234" -colo=HKG -delay=100 -port=80 -tls=false</code><br>
 在国内中转机上去转发套了CDN的节点使用如下命令：<code>cfnat-windows-amd64.exe -addr="0.0.0.0:1234" -colo=HKG -delay=100 -port=443 -tls=true</code><br>
