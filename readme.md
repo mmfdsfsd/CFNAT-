@@ -27,7 +27,7 @@
         是否为 TLS 端口 (default true)<br>
   <code>-task int</code><br>
         最大并发请求数: 并发请求最大协程数 (default 100)<br>
-</hr>
+<hr>
 其中的<br>
 -colo 参数提供指定数据中心的筛选  <br>
 -delay 参数提供极限的链路优化，超过1000就失去了意义，该参数用于tcp目标ip连接超时判断<br>
