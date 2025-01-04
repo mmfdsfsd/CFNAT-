@@ -2,6 +2,7 @@
 参数说明<br>
 也可直接使用cmd带参执行原程序，例如：<code>cfnat-windows-amd64.exe -addr="0.0.0.0:1234" -colo=HKG -delay=100 -port=80 -tls=false</code><br>
 在国内中转机上去转发套了CDN的节点使用如下命令：<code>cfnat-windows-amd64.exe -addr="0.0.0.0:1234" -colo=HKG -delay=100 -port=443 -tls=true</code><br>
+</hr>
   <code>-addr string</code><br>
         服务端口: 本地监听的 IP 和端口 (default "0.0.0.0:1234")<br>
   <code>-code int</code><br>
