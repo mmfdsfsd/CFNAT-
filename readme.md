@@ -27,3 +27,10 @@
         是否为 TLS 端口 (default true)<br>
   <code>-task int</code><br>
         最大并发请求数: 并发请求最大协程数 (default 100)<br>
+</hr>
+其中的<br>
+-colo 参数提供指定数据中心的筛选  <br>
+-delay 参数提供极限的链路优化，超过1000就失去了意义，该参数用于tcp目标ip连接超时判断<br>
+-domain 参数用来trace指定的域名，避免某些ip只能被官方ip使用而个人免费的域名不可用<br>
+ -ipnum 参数用来colo提取过程中按照延迟排序候选指定的ip数量作为待中转的ip<br>
+  -tls 参数要与 -port 参数配合使用 具体cf有哪些端口是tls端口  哪些端口是非tls端口 参考 https://developers.cloudflare.com/fundamentals/reference/network-ports/
